@@ -23,16 +23,16 @@ const Navbar = () => {
 			</div>
 
 			<Menu theme="dark">
-				<Menu.Item Icon={HomeOutlined}>
+				<Menu.Item key={Math.random()} icon={<HomeOutlined />}>
 					<Link to="/">Home</Link>
 				</Menu.Item>
-				<Menu.Item Icon={FundOutlined}>
+				<Menu.Item key={Math.random()} icon={<FundOutlined />}>
 					<Link to="/cryptocurrencies">Cryptocurrencies</Link>
 				</Menu.Item>
-				<Menu.Item Icon={MoneyCollectOutlined}>
+				<Menu.Item key={Math.random()} icon={<MoneyCollectOutlined />}>
 					<Link to="/exchanges">Exchanges</Link>
 				</Menu.Item>
-				<Menu.Item Icon={BulbOutlined}>
+				<Menu.Item key={Math.random()} icon={<BulbOutlined />}>
 					<Link to="/news">News</Link>
 				</Menu.Item>
 			</Menu>
