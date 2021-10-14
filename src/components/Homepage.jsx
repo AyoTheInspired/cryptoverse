@@ -13,7 +13,6 @@ const Homepage = () => {
 
 	if (isFetching) return "Loading...";
 
-	// console.log(data);
 
 	return (
 		<div>
